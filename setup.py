@@ -90,8 +90,10 @@ setup(
         "plotly>=4.9.0",
         "ppscore; python_version >= '3.6'",
         "requests",
-        "scikit-learn >= '0.21.0",
-        "scipy",
+        "scikit-learn == 0.20.4; python_version < '3.0'"
+        "scikit-learn >= '0.21.0; python_version > '3.0'",
+        "scipy==1.2.3; python_version < '3.7'",
+        "scipy; python_version >= '3.7'",
         "squarify",
         "statsmodels",
         "strsimpy",
